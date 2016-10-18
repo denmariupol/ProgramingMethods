@@ -28,6 +28,7 @@ public class Task {
         //BubbleSort(list);
         //RepetingNumbers(list1);
         NodNok(list2);
+        SimpleNumbers(list);
     }
 
     private static void NegPos(ArrayList<Integer> list) {
@@ -147,7 +148,6 @@ public class Task {
         }
         System.out.println("Nod : "+nod);
     }
-
     private static int GetNod(int a,int b) {
         for(;;) {
             if (a > b)
@@ -159,8 +159,21 @@ public class Task {
                 return a + b;
         }
     }
-
     private static int GetnNok(int a,int b){
         return 0;
+    }
+
+
+    public static void SimpleNumbers(ArrayList<Integer> list) {
+        System.out.println("Simple numbers in array : ");
+        for(Integer number : list){
+            for (int j = 2; j <= number; j++) {
+                if ((number % j == 0) && (j < number))
+                    break;
+                else if ((number % j == 0) && (j == number))
+                    System.out.print(number+" ");
+            }
+
+        }
     }
 }
