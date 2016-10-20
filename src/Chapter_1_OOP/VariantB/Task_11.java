@@ -10,8 +10,6 @@ public class Task_11 {
     public static void main(String[] args) {
         Random rand = new Random();
         ArrayList<Integer> list = new ArrayList<>();
-        ArrayList<Double> list1 = new ArrayList<>();
-        ArrayList<Integer> list2 = new ArrayList<>();
         for (int i = 0; i <= 20; i++)
             list.add(rand.nextInt(200)-100);
 
