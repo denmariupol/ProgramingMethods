@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bc12a7b-278c-4a19-ba2b-f6f3efaa826e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Chapter_1_OOP/VariantB/Task.java" afterPath="$PROJECT_DIR$/src/Chapter_1_OOP/VariantB/Task.java" />
     </list>
     <ignored path="MetodiProgrammirovaniya.iws" />
@@ -67,26 +68,33 @@
       <file leaf-file-name="Task.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Chapter_1_OOP/VariantB/Task.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="218" column="28" selection-start-line="218" selection-start-column="28" selection-end-line="218" selection-end-column="28" />
+            <state relative-caret-position="22">
+              <caret line="257" column="0" selection-start-line="257" selection-start-column="0" selection-end-line="257" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#NegPos#0;class#Task#0" expanded="false" />
                 <element signature="method#MinMax#0;class#Task#0" expanded="false" />
                 <element signature="method#ThreeOrNine#0;class#Task#0" expanded="false" />
                 <element signature="method#FiveAndSeven#0;class#Task#0" expanded="false" />
+                <element signature="method#BubbleSort#0;class#Task#0" expanded="false" />
                 <element signature="method#RepetingNumbers#0;class#Task#0" expanded="false" />
                 <element signature="method#NodNok#0;class#Task#0" expanded="false" />
                 <element signature="method#GetNod#0;class#Task#0" expanded="false" />
-                <element signature="e#4742#4743#0" expanded="true" />
+                <element signature="e#4839#4840#0" expanded="true" />
                 <element signature="method#SimpleNumbers#0;class#Task#0" expanded="false" />
-                <element signature="e#5322#5330#0" expanded="true" />
+                <element signature="method#NumberFrequency#0;class#Task#0" expanded="false" />
+                <element signature="e#5419#5427#0" expanded="true" />
+                <element signature="method#ClearList#0;class#Task#0" expanded="false" />
+                <element signature="method#Sort#0;class#Task#0" expanded="false" />
+                <element signature="method#Comp#0;class#Task#0" expanded="false" />
                 <element signature="class#Number#0;class#Task#0" expanded="false" />
-                <element signature="e#7267#7268#0" expanded="true" />
-                <element signature="e#7303#7304#0" expanded="true" />
-                <element signature="e#7334#7335#0" expanded="true" />
-                <element signature="e#7368#7369#0" expanded="true" />
-                <marker date="1476785705080" expanded="true" signature="4928:5197" ph="{...}" />
+                <element signature="e#7220#7221#0" expanded="true" />
+                <element signature="e#7256#7257#0" expanded="true" />
+                <element signature="e#7287#7288#0" expanded="true" />
+                <element signature="e#7321#7322#0" expanded="true" />
+                <element signature="e#7591#7600#0" expanded="true" />
+                <element signature="e#7652#7661#0" expanded="true" />
+                <marker date="1476861793805" expanded="true" signature="5025:5294" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -707,12 +715,12 @@
       <workItem from="1476549621562" duration="55000" />
       <workItem from="1476586403765" duration="24205000" />
       <workItem from="1476728669005" duration="145000" />
-      <workItem from="1476765899369" duration="14658000" />
+      <workItem from="1476765899369" duration="18865000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39063000" />
+    <option name="totallyTimeSpent" value="43270000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -735,7 +743,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32819724" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32819724" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -767,7 +775,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -818,18 +826,25 @@
             <element signature="method#MinMax#0;class#Task#0" expanded="false" />
             <element signature="method#ThreeOrNine#0;class#Task#0" expanded="false" />
             <element signature="method#FiveAndSeven#0;class#Task#0" expanded="false" />
+            <element signature="method#BubbleSort#0;class#Task#0" expanded="false" />
             <element signature="method#RepetingNumbers#0;class#Task#0" expanded="false" />
             <element signature="method#NodNok#0;class#Task#0" expanded="false" />
             <element signature="method#GetNod#0;class#Task#0" expanded="false" />
-            <element signature="e#4742#4743#0" expanded="true" />
+            <element signature="e#4839#4840#0" expanded="true" />
             <element signature="method#SimpleNumbers#0;class#Task#0" expanded="false" />
-            <element signature="e#5322#5330#0" expanded="true" />
+            <element signature="method#NumberFrequency#0;class#Task#0" expanded="false" />
+            <element signature="e#5419#5427#0" expanded="true" />
+            <element signature="method#ClearList#0;class#Task#0" expanded="false" />
+            <element signature="method#Sort#0;class#Task#0" expanded="false" />
+            <element signature="method#Comp#0;class#Task#0" expanded="false" />
             <element signature="class#Number#0;class#Task#0" expanded="false" />
-            <element signature="e#7267#7268#0" expanded="true" />
-            <element signature="e#7303#7304#0" expanded="true" />
-            <element signature="e#7334#7335#0" expanded="true" />
-            <element signature="e#7368#7369#0" expanded="true" />
-            <marker date="1476785705080" expanded="true" signature="4928:5197" ph="{...}" />
+            <element signature="e#7220#7221#0" expanded="true" />
+            <element signature="e#7256#7257#0" expanded="true" />
+            <element signature="e#7287#7288#0" expanded="true" />
+            <element signature="e#7321#7322#0" expanded="true" />
+            <element signature="e#7591#7600#0" expanded="true" />
+            <element signature="e#7652#7661#0" expanded="true" />
+            <marker date="1476861793805" expanded="true" signature="5025:5294" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -876,18 +891,25 @@
             <element signature="method#MinMax#0;class#Task#0" expanded="false" />
             <element signature="method#ThreeOrNine#0;class#Task#0" expanded="false" />
             <element signature="method#FiveAndSeven#0;class#Task#0" expanded="false" />
+            <element signature="method#BubbleSort#0;class#Task#0" expanded="false" />
             <element signature="method#RepetingNumbers#0;class#Task#0" expanded="false" />
             <element signature="method#NodNok#0;class#Task#0" expanded="false" />
             <element signature="method#GetNod#0;class#Task#0" expanded="false" />
-            <element signature="e#4742#4743#0" expanded="true" />
+            <element signature="e#4839#4840#0" expanded="true" />
             <element signature="method#SimpleNumbers#0;class#Task#0" expanded="false" />
-            <element signature="e#5322#5330#0" expanded="true" />
+            <element signature="method#NumberFrequency#0;class#Task#0" expanded="false" />
+            <element signature="e#5419#5427#0" expanded="true" />
+            <element signature="method#ClearList#0;class#Task#0" expanded="false" />
+            <element signature="method#Sort#0;class#Task#0" expanded="false" />
+            <element signature="method#Comp#0;class#Task#0" expanded="false" />
             <element signature="class#Number#0;class#Task#0" expanded="false" />
-            <element signature="e#7267#7268#0" expanded="true" />
-            <element signature="e#7303#7304#0" expanded="true" />
-            <element signature="e#7334#7335#0" expanded="true" />
-            <element signature="e#7368#7369#0" expanded="true" />
-            <marker date="1476785705080" expanded="true" signature="4928:5197" ph="{...}" />
+            <element signature="e#7220#7221#0" expanded="true" />
+            <element signature="e#7256#7257#0" expanded="true" />
+            <element signature="e#7287#7288#0" expanded="true" />
+            <element signature="e#7321#7322#0" expanded="true" />
+            <element signature="e#7591#7600#0" expanded="true" />
+            <element signature="e#7652#7661#0" expanded="true" />
+            <marker date="1476861793805" expanded="true" signature="5025:5294" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -930,26 +952,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter_1_OOP/VariantB/Task.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="218" column="28" selection-start-line="218" selection-start-column="28" selection-end-line="218" selection-end-column="28" />
+        <state relative-caret-position="22">
+          <caret line="257" column="0" selection-start-line="257" selection-start-column="0" selection-end-line="257" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#NegPos#0;class#Task#0" expanded="false" />
             <element signature="method#MinMax#0;class#Task#0" expanded="false" />
             <element signature="method#ThreeOrNine#0;class#Task#0" expanded="false" />
             <element signature="method#FiveAndSeven#0;class#Task#0" expanded="false" />
+            <element signature="method#BubbleSort#0;class#Task#0" expanded="false" />
             <element signature="method#RepetingNumbers#0;class#Task#0" expanded="false" />
             <element signature="method#NodNok#0;class#Task#0" expanded="false" />
             <element signature="method#GetNod#0;class#Task#0" expanded="false" />
-            <element signature="e#4742#4743#0" expanded="true" />
+            <element signature="e#4839#4840#0" expanded="true" />
             <element signature="method#SimpleNumbers#0;class#Task#0" expanded="false" />
-            <element signature="e#5322#5330#0" expanded="true" />
+            <element signature="method#NumberFrequency#0;class#Task#0" expanded="false" />
+            <element signature="e#5419#5427#0" expanded="true" />
+            <element signature="method#ClearList#0;class#Task#0" expanded="false" />
+            <element signature="method#Sort#0;class#Task#0" expanded="false" />
+            <element signature="method#Comp#0;class#Task#0" expanded="false" />
             <element signature="class#Number#0;class#Task#0" expanded="false" />
-            <element signature="e#7267#7268#0" expanded="true" />
-            <element signature="e#7303#7304#0" expanded="true" />
-            <element signature="e#7334#7335#0" expanded="true" />
-            <element signature="e#7368#7369#0" expanded="true" />
-            <marker date="1476785705080" expanded="true" signature="4928:5197" ph="{...}" />
+            <element signature="e#7220#7221#0" expanded="true" />
+            <element signature="e#7256#7257#0" expanded="true" />
+            <element signature="e#7287#7288#0" expanded="true" />
+            <element signature="e#7321#7322#0" expanded="true" />
+            <element signature="e#7591#7600#0" expanded="true" />
+            <element signature="e#7652#7661#0" expanded="true" />
+            <marker date="1476861793805" expanded="true" signature="5025:5294" ph="{...}" />
           </folding>
         </state>
       </provider>

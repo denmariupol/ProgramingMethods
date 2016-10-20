@@ -14,21 +14,25 @@ public class Task {
         ArrayList<Double> list1 = new ArrayList<>();
         ArrayList<Integer> list2 = new ArrayList<>();
         for (int i = 0; i <= 20; i++) {
-            list.add(rand.nextInt(20));
+            list.add(rand.nextInt(200)-100);
             list1.add(rand.nextDouble() * (200 - 100) - 150);
             if (i < 2)
                 list2.add(rand.nextInt(100));
         }
-
+        //Task1
         // NegPos(list);
+        //Task2
         //MinMax(list);
+        //Task3
         //ThreeOrNine(list);
+        //Task
         //FiveAndSeven(list);
         //BubbleSort(list);
         //RepetingNumbers(list1);
 //        NodNok(list2);
 //        SimpleNumbers(list);
-        NumberFrequency(list);
+        //NumberFrequency(list);
+        LuckyNumbers(list);
     }
 
 
@@ -228,12 +232,6 @@ public class Task {
                     System.out.print(num.get(j).count + "->"+num.get(j).val+" ");
                 }
             }
-
-
-
-//        for (int i = 0; i < num.size(); i++) {
-//            System.out.print(num.get(i).count + "->" + num.get(i).val + " ");
-//        }
     }
     private static boolean Comp(Number n1, Number n2) {
         if(n2.count > n1.count)
@@ -259,4 +257,33 @@ public class Task {
     }
 
 
+    private static void LuckyNumbers(ArrayList<Integer> list) {
+        System.out.println("Lucky Numbers");
+        ArrayList<Integer> num = new ArrayList<Integer>();
+        ArrayList<Integer> lucky = new ArrayList<Integer>();
+        for(int i = 1;i<=100;i++)
+            num.add(i);
+
+        for (int i = 0; i < num.size(); i++) {
+            if (num.get(i) % 2 == 0)
+                num.remove(i);
+        }
+        for (int i = 1; i < num.size(); i++) {
+            if (i % 2 == 0)
+                num.remove(i);
+        }
+        for (int i = 1; i < num.size(); i++) {
+            if (i % 6 == 0)
+                num.remove(i);
+        }
+        for (int i = 0; i <num.size() ; i++) {
+            lucky.add(num.get(i));
+        }
+        for (int i = 0; i <num.size() ; i++) {
+            for (int j = 0; j <list.size() ; j++) {
+                if(num.get(i) == list.get(j))
+                    System.out.println(list.get(j)+" ");
+            }
+        }
+    }
 }
