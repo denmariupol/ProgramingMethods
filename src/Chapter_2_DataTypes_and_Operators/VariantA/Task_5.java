@@ -1,7 +1,7 @@
 package Chapter_2_DataTypes_and_Operators.VariantA;
-
 import java.util.ArrayList;
 import java.util.Random;
+
 
 /**
  * Created by Ingener_mobil on 21.10.2016.
