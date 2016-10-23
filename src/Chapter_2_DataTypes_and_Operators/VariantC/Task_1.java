@@ -26,74 +26,44 @@ public class Task_1 {
                     System.out.println();
             }
             if (k == i-1) {
+                System.out.println();
                 for (int l = 0; l < row.length; l++) {
                     System.out.printf("%4d", row[l].getSum());
                 }
+            }
+        }
+        System.out.println();
+        Sort(row);
+    }
 
+    private static void Sort(Task_1_Row [] row){
+        Task_1_Row temp;
+        int count = 0;
+        for (int i = 0; i < row.length - 1; i++) {
+            if(row[i].getSum() > row[i + 1].getSum()){
+                temp = row[i];
+                row[i] = row[i + 1];
+                row[i + 1] = temp;
+                count++;
+            }
+        }
+        if(count !=0)
+            Sort(row);
+        else{
+            System.out.println();
+            for (int k = 0; k < row.length; k++) {
+                for (int l = 0; l < row.length; l++) {
+                    System.out.printf("%4d",row[l].getNumbers()[k]);
+                    if (l == row.length-1)
+                        System.out.println();
+                }
+                if (k == row.length-1) {
+                    System.out.println();
+                    for (int l = 0; l < row.length; l++) {
+                        System.out.printf("%4d", row[l].getSum());
+                    }
+                }
             }
         }
     }
-
-//    private static void ElementsSum(int [][] matrix){
-//        int i = matrix.length;
-//        int j = matrix[0].length;
-//        int [] elementsSum = new int[i];
-//        for (int k = 0; k < i; k++) {
-//            for (int l = 0; l < j; l++) {
-//                elementsSum[k]+= matrix[l][k];
-//            }
-//        }
-//        ElementsSort(elementsSum,elementsSum,matrix);
-//    }
-//    private static void ElementsSort(int [] oldElementsSum,int [] initialElements,int [][] matrix){
-//        int temp,count = 0;
-//        int [] newElementsSum = oldElementsSum.clone();
-//        for (int k = 0; k < newElementsSum.length - 1; k++) {
-//            if (newElementsSum[k]> newElementsSum[k+1]){
-//                temp = newElementsSum[k];
-//                newElementsSum[k] = newElementsSum[k+1];
-//                newElementsSum[k+1] = temp;
-//                count++;
-//            }
-//        }
-//        if (count!=0)
-//            ElementsSort(newElementsSum,initialElements,matrix);
-//        else{
-//            ArraySort(newElementsSum,initialElements,matrix);
-//        }
-//    }
-//    private static void ArraySort(int [] sortedArray,int [] initialArray,int [][] matrix){
-//        int temp;
-//        System.out.println();
-//        for (int k = 0; k < initialArray.length; k++) {
-//            System.out.printf("%4d", initialArray[k]);
-//        }
-//        System.out.println();
-//        for (int k = 0; k < sortedArray.length; k++) {
-//            System.out.printf("%4d",sortedArray[k]);
-//        }
-//        System.out.println();
-//        System.out.println();
-//        for (int i = 0; i < initialArray.length; i++) {
-//            for (int j = i+1; j <sortedArray.length ; j++) {
-//                if (initialArray[i] == sortedArray[j]) {
-//                    for (int k = 0; k < matrix.length; k++) {
-//                        temp = matrix[k][i];
-//                        matrix[k][i] = matrix[k][j];
-//                        matrix[k][j] = temp;
-//                        System.out.println(matrix[k][j]);
-//                    }
-//                }
-//            }
-//            break;
-//        }
-//
-//        for (int k = 0; k < matrix.length; k++) {
-//            for (int l = 0; l < matrix[0].length; l++) {
-//                System.out.printf("%4d",matrix[k][l]);
-//                if (l == matrix[0].length-1)
-//                    System.out.println();
-//            }
-//        }
-//    }
 }
