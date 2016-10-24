@@ -1,4 +1,4 @@
-package Chapter_2_DataTypes_and_Operators.VariantC;
+package Chapter_2_DataTypes_and_Operators.VariantC.Task_1;
 
 import java.util.Random;
 
@@ -11,13 +11,13 @@ public class Task_1 {
         int j = 8;
         int [][] matrix = new int[i][j];
         int [] temp = new int[i];
-        Task_1_Row [] row = new Task_1_Row[i];
+        Row [] row = new Row[i];
         Random rand = new Random();
         for (int k = 0; k < i; k++) {
             for (int l = 0; l < j; l++) {
                 temp[l] = rand.nextInt(100);
             }
-            row[k] = new Task_1_Row(temp);
+            row[k] = new Row(temp);
         }
         for (int k = 0; k < i; k++) {
             for (int l = 0; l < j; l++) {
@@ -36,8 +36,8 @@ public class Task_1 {
         Sort(row);
     }
 
-    private static void Sort(Task_1_Row [] row){
-        Task_1_Row temp;
+    private static void Sort(Row [] row){
+        Row temp;
         int count = 0;
         for (int i = 0; i < row.length - 1; i++) {
             if(row[i].getSum() > row[i + 1].getSum()){
