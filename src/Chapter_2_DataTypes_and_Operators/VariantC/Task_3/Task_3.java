@@ -60,22 +60,35 @@ public class Task_3
                     }
                     count = 1;
                 }
+                if((c == matrix.length - 1) && matrix[r+1][0] > matrix[r][c]){
+                    if (array.size() > 0){
+                        sequence.add(new Sequence(array, count));
+                        array.clear();
+                    }
+                    count = 1;
+                }
             }
-
         }
         ResultSequence(sequence);
     }
 
     private static void ResultSequence(ArrayList<Sequence> sequence)
     {
-        for (Sequence s : sequence)
+
+        for (int j = 0;j < sequence.size();j++)
         {
-            for (int i = 0; i < s.getNumbers().size(); i++)
+            Sequence max = sequence.get(0);
+            for (int i = 0; i < sequence.get(i).getNumbers().size(); i++)
             {
-                System.out.print(s.getNumbers().get(i) + " ");
+                if(sequence.get(i).getCount() > max.getCount())
+                    max = sequence.get(i);
             }
-            System.out.println("Count : "+s.getCount() + " ");
-            System.out.println();
+            if(j == sequence.size() - 1) {
+                for (int num : max.getNumbers()) {
+                    System.out.printf("%d ", num);
+                }
+                System.out.println("Count : " + max.getCount() + " ");
+            }
         }
     }
 
