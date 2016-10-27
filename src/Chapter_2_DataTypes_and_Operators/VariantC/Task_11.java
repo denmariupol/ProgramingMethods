@@ -1,12 +1,17 @@
 package Chapter_2_DataTypes_and_Operators.VariantC;
 
+/**
+ * Created by Ingener_mobil on 27.10.2016.
+ */
+
 import java.util.ArrayList;
 import java.util.Random;
+
 
 /**
  * Created by Ingener_mobil on 27.10.2016.
  */
-public class Task_10 {
+public class Task_11 {
     public static void main(String[] args) {
         int rows = 4;
         int cols = 4;
@@ -15,7 +20,7 @@ public class Task_10 {
         int[] mas = new int[rows];
         for (int r = 0; r < rows; r++) {
             for (int c = 0; c < cols; c++) {
-                matrix[r][c] = rand.nextInt(20);
+                matrix[r][c] = rand.nextInt(20)-10;
                 System.out.printf("%4d", matrix[r][c]);
                 if (c == rows - 1)
                     System.out.println();
@@ -25,24 +30,17 @@ public class Task_10 {
     }
 
     private static void MaxElement(int[][] matrix) {
-        int max = matrix[0][0];
+
         ArrayList<Integer> maxI = new ArrayList<Integer>();
         ArrayList<Integer> maxJ = new ArrayList<Integer>();
         for (int i = 0; i < matrix.length; i++) {
-            for (int j = 1; j < matrix[i].length; j++) {
-                if (matrix[i][j] > max)
-                    max = matrix[i][j];
-            }
-        }
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 1; j < matrix[i].length; j++) {
-                if (matrix[i][j] == max) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                if (matrix[i][j] == 0) {
                     maxI.add(i);
                     maxJ.add(j);
                 }
             }
         }
-        System.out.println("Максимальный элемент "+max);
         ArrayList<ArrayList <Integer>> dMatrixOut = new ArrayList<ArrayList<Integer>>();
         for (int i = 0; i < matrix.length; i++) {
             if (maxI.contains(i))
@@ -60,3 +58,4 @@ public class Task_10 {
         }
     }
 }
+
