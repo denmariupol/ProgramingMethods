@@ -5,7 +5,7 @@ import java.util.Random;
 /**
  * Created by Ingener_mobil on 28.10.2016.
  */
-public class Taask_15 {
+public class Task_15 {
     public static void main(String[] args) {
         int rows = 3;
         int cols = 3;
