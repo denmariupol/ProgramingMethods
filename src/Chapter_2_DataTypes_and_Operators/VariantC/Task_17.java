@@ -36,6 +36,7 @@ public class Task_17 {
     }
     private static void CheckNeighbors(int [][] matrix,int mI,int mJ){
         int count = 0;
+        int min = 0;
         ArrayList<Integer> minimums = new ArrayList<Integer>();
         for (int i = mI - 1; i <= mI + 1; i++) {
             for (int j = mJ - 1; j <=mJ + 1; j++) {
