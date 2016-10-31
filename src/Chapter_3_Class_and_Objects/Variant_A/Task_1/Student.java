@@ -69,4 +69,13 @@ public class Student {
     public Group getGroup() {
         return group;
     }
+
+    @Override
+    public String toString(){
+
+        StringBuilder sb = new StringBuilder("ID: "+this.id+" Имя: "+this.name+" Фамилия: "+this.surname+
+                " Отчество: "+this.patronymic+" Дата рождения: "+this.birthDate+" Адрес: "+this.address+
+                " Телефон: "+this.phone+" Факультет: "+this.faculty.GetFaculty(faculty)+" Курс: "+this.grade.GetGrade(grade)+" Группа: "+this.group.GetGroup(group));
+        return sb.toString();
+    }
 }

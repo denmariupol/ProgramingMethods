@@ -1,6 +1,7 @@
 package Chapter_3_Class_and_Objects.Variant_A.Task_1;
 
-import javax.swing.text.AbstractDocument;
+import com.sun.org.apache.xalan.internal.xsltc.dom.SimpleResultTreeImpl;
+
 import java.util.Scanner;
 
 /**
@@ -11,6 +12,7 @@ public class Menu {
     private static Integer input;
 
     public static void Run() {
+        StudentsArray.Create();
         Menu();
         input = scan.nextInt();
         try{
@@ -40,7 +42,7 @@ public class Menu {
             Run();
         }
     }
-    public static void Menu(){
+    private static void Menu(){
         System.out.println("-------------------Меню----------------------");
         System.out.println("1.Список студентов факультета.");
         System.out.println("2.Список студентов для каждого факультета или курса.");
@@ -49,16 +51,18 @@ public class Menu {
         System.out.println("0.Выход.");
 
     }
-    public static void SubMenu(int choice){
-        System.out.println(choice);
-        switch (choice){
+    private static void SubMenu(Integer subMenu){
+        switch (subMenu){
             case 1:
+                System.out.println("Выберите факультет.");
                 int i = 0;
                 for(Faculty f : Faculty.values()){
                     i++;
                     System.out.printf("%d.%s",i,f.GetFaculty(f));
                     System.out.println();
                 }
+                input = scan.nextInt();
+                Action(subMenu,input);
                 break;
             case 2:
                 break;
@@ -69,4 +73,22 @@ public class Menu {
                 Menu();
         }
     }
+
+    private static void Action(Integer subMenu, Integer input){
+        switch (subMenu){
+            case 1:
+                Facult(input);
+                break;
+        }
+    }
+
+    private static void Facult(Integer input){
+        input = --input;
+        for (Student student : StudentsArray.getStudents()){
+            if (student.getFaculty().ordinal() == input)
+                System.out.println(student.toString());
+        }
+    }
+
+
 }
