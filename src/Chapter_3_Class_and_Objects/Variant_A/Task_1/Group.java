@@ -14,11 +14,11 @@ public enum Group {
             case INFORMATICS:
                 return "Информатика";
             case HISTORY:
-                return "Информатика";
+                return "история";
             case PHYSICS:
-                return "Информатика";
+                return "Физика";
             case MATERIAL:
-                return "Информатика";
+                return "Материаловедение";
             default:
                 throw new EnumConstantNotPresentException(this.getDeclaringClass(),this.name());
         }

@@ -1,7 +1,5 @@
 package Chapter_3_Class_and_Objects.Variant_A.Task_1;
 
-import org.omg.CORBA.PUBLIC_MEMBER;
-
 /**
  * Created by Ingener_mobil on 31.10.2016.
  */
