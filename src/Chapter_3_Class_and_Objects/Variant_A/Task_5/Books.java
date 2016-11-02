@@ -12,11 +12,11 @@ public class Books {
         return books;
     }
     public static void Add(){
-        books.add(new Book("Белый клык",Author.LONDON,Publisher.PUBLISHER_1,1985));
-        books.add(new Book("Мгла",Author.KING,Publisher.PUBLISHER_2,1983));
-        books.add(new Book("Маугли",Author.KIPLING,Publisher.PUBLISHER_3,1981));
-        books.add(new Book("Белый клык",Author.KING,Publisher.PUBLISHER_1,1995));
-        books.add(new Book("Потерявший лицо",Author.LONDON,Publisher.PUBLISHER_3,1999));
-        books.add(new Book("Нам-Бок лжец",Author.LONDON,Publisher.PUBLISHER_3,1987));
+        books.add(new Book("Белый клык",Author.LONDON,Publisher.PUBLISHER_1,Year.FIRST));
+        books.add(new Book("Мгла",Author.KING,Publisher.PUBLISHER_2,Year.SECOND));
+        books.add(new Book("Маугли",Author.KIPLING,Publisher.PUBLISHER_3,Year.THIRD));
+        books.add(new Book("Белый клык",Author.KING,Publisher.PUBLISHER_1,Year.THIRD));
+        books.add(new Book("Потерявший лицо",Author.LONDON,Publisher.PUBLISHER_3,Year.FIRST));
+        books.add(new Book("Нам-Бок лжец",Author.LONDON,Publisher.PUBLISHER_3,Year.FIRST));
     }
 }

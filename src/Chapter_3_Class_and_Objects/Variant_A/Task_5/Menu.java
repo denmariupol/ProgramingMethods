@@ -36,10 +36,11 @@ public class Menu {
     }
 
     private static void SubMenu(Integer subMenu) {
+        int i;
         switch (subMenu) {
             case 1:
                 System.out.println("Выберите автора");
-                int i = 1;
+                i = 1;
                 for(Author a : Author.values()) {
                     System.out.printf("%d.%s",i,a.getAuthor(a));
                     System.out.println();
@@ -50,13 +51,25 @@ public class Menu {
                 ZeroCheck(subMenu,input);
                 break;
             case 2:
-                PublisherBook();
-                System.out.printf("Для возврата нажмите 0.");
+                System.out.println("Выберите издателя");
+                i = 1;
+                for(Publisher p : Publisher.values()) {
+                    System.out.printf("%d.%s",i,p.getPublisher(p));
+                    System.out.println();
+                    i++;
+                }
+                System.out.println("Для возврата нажмите 0.");
                 input = checkInput(scan);
                 ZeroCheck(subMenu,input);
                 break;
             case 3:
-                YearBook();
+                System.out.println("Выберите год");
+                i = 1;
+                for(Year y : Year.values()) {
+                    System.out.printf("%d.%s",i,y.getYear(y));
+                    System.out.println();
+                    i++;
+                }
                 System.out.printf("Для возврата нажмите 0.");
                 input = checkInput(scan);
                 ZeroCheck(subMenu,input);
@@ -70,29 +83,48 @@ public class Menu {
     private static void Action(Integer subMenu,Integer input) {
         switch (subMenu){
             case 1:
-                AuthorBook(input);
+                AuthorBook(subMenu,input);
                 break;
             case 2:
-                PublisherBook();
+                PublisherBook(subMenu,input);
                 break;
             case 3:
-                YearBook();
+                YearBook(subMenu,input);
                 break;
         }
     }
 
-    private static void YearBook() {
+    private static void YearBook(Integer subMenu,Integer input) {
+        input = --input;
+        for(Book b : Books.getBooks()){
+            if(b.getYear().ordinal() == input)
+                System.out.println(b.toString());
+        }
+        System.out.println("Для возврата нажмите 0.");
+        input = checkInput(scan);
+        ZeroCheck(subMenu,input);
     }
 
-    private static void PublisherBook() {
+    private static void PublisherBook(Integer subMenu,Integer input) {
+        input = --input;
+        for(Book b : Books.getBooks()){
+            if(b.getPublisher().ordinal() == input)
+                System.out.println(b.toString());
+        }
+        System.out.println("Для возврата нажмите 0.");
+        input = checkInput(scan);
+        ZeroCheck(subMenu,input);
     }
 
-    private static void AuthorBook(Integer input) {
+    private static void AuthorBook(Integer subMenu,Integer input) {
         input = --input;
         for(Book b : Books.getBooks()){
             if(b.getAuthor().ordinal() == input)
                 System.out.println(b.toString());
         }
+        System.out.println("Для возврата нажмите 0.");
+        input = checkInput(scan);
+        ZeroCheck(subMenu,input);
     }
 
     private static void ZeroCheck(Integer subMenu,Integer input){

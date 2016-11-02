@@ -7,7 +7,7 @@ public class Book {
     private String name;
     private Author author;
     private Publisher publisher;
-    private Integer year;
+    private Year year;
 
     public String getName() {
         return name;
@@ -21,11 +21,11 @@ public class Book {
         return publisher;
     }
 
-    public Integer getYear() {
+    public Year getYear() {
         return year;
     }
 
-    public Book(String name, Author author, Publisher publisher, Integer year) {
+    public Book(String name, Author author, Publisher publisher, Year year) {
         this.name = name;
         this.author = author;
         this.publisher = publisher;
@@ -35,7 +35,7 @@ public class Book {
     @Override
     public String toString(){
         StringBuilder sb = new StringBuilder("Название: "+name+" Автор: "+author.getAuthor(author)+" Издатель:"
-                                                +publisher.getPublisher(publisher)+" Год: "+year);
+                                                +publisher.getPublisher(publisher)+" Год: "+year.getYear(year));
         return sb.toString();
     }
 }
