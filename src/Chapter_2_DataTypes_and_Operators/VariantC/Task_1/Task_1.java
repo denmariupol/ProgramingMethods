@@ -4,6 +4,8 @@ import java.util.Random;
 
 /**
  * Created by User on 23.10.16.
+ * Упорядочить строки (столбцы) матрицы в порядке возрастания значений
+ элементов k-го столбца (строки)
  */
 public class Task_1 {
     public static void main(String[] args) {

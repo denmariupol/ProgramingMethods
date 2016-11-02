@@ -4,6 +4,7 @@ import java.util.Random;
 
 /**
  * Created by Ingener_mobil on 28.10.2016.
+ * Округлить все элементы матрицы до целого числа.
  */
 public class Task_14 {
     public static void main(String[] args) {

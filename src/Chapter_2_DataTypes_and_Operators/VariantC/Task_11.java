@@ -10,6 +10,7 @@ import java.util.Random;
 
 /**
  * Created by Ingener_mobil on 27.10.2016.
+ * Уплотнить матрицу, удаляя из нее строки и столбцы, заполненные нулями
  */
 public class Task_11 {
     public static void main(String[] args) {

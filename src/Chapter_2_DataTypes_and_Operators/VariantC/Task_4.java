@@ -5,6 +5,8 @@ import java.util.Random;
 
 /**
  * Created by Ingener_mobil on 25.10.2016.
+ *Найти сумму элементов матрицы, расположенных между первым и вторым
+ положительными элементами каждой строки
  */
 public class Task_4 {
     public static void main(String[] args) {

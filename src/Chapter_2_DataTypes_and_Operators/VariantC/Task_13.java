@@ -4,6 +4,8 @@ import java.util.Random;
 
 /**
  * Created by Ingener_mobil on 27.10.2016.
+ * Преобразовать строки матрицы таким образом, чтобы элементы, равные
+ нулю, располагались после всех остальных
  */
 public class Task_13 {
     public static void main(String[] args) {

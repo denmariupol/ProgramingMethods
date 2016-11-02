@@ -6,6 +6,7 @@ import java.util.Random;
 
 /**
  * Created by Ingener_mobil on 24.10.2016.
+ * Найти и вывести наибольшее число возрастающих (убывающих) элементов матрицы, идущих подряд
  */
 public class Task_3
 {

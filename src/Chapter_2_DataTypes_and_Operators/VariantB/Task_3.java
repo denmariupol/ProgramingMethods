@@ -2,11 +2,13 @@ package Chapter_2_DataTypes_and_Operators.VariantB;
 import java.util.Scanner;
 /**
  * Created by User on 22.10.16.
+ * Найти корни квадратного уравнения. Параметры уравнения передавать
+ с командной строкой.
  */
 public class Task_3 {
     public static void main(String[] args) {
         int a = 0,b = 0,c = 0;
-        System.out.print("Введите положительные коеффициенты уравнение через пробел : ");
+        System.out.print("Введите положительные коэффициенты уравнение через пробел : ");
         Scanner scan = new Scanner(System.in);
 
         if (scan.hasNextInt() ){

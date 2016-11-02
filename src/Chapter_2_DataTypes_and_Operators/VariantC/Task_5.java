@@ -4,6 +4,7 @@ import java.util.Random;
 
 /**
  * Created by Ingener_mobil on 25.10.2016.
+ * Транспонировать квадратную матрицу
  */
 public class Task_5 {
     public static void main(String[] args) {

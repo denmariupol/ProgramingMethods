@@ -4,6 +4,8 @@ import java.util.Random;
 
 /**
  * Created by Ingener_mobil on 28.10.2016.
+ * Найти количество всех седловых точек матрицы. (Матрица А имеет седловую точку Аi, j, если Аi, j является минимальным элементом в i-й строке
+ и максимальным в j-м столбце)
  */
 public class Task_15 {
     public static void main(String[] args) {

@@ -5,6 +5,8 @@ import java.util.Random;
 
 /**
  * Created by Ingener_mobil on 27.10.2016.
+ * Найти максимальный элемент (ы) в матрице и удалить из матрицы все
+ строки и столбцы, его содержащие
  */
 public class Task_10 {
     public static void main(String[] args) {

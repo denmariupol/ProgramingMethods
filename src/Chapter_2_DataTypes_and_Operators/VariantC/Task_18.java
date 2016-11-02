@@ -5,6 +5,7 @@ import java.util.Random;
 
 /**
  * Created by Ingener_mobil on 28.10.2016.
+ * Найти наименьший среди локальных максимумов. (Элемент матрицы называется локальным минимумом, если он строго меньше всех своих соседей.)
  */
 public class Task_18 {
     public static void main(String[] args) {

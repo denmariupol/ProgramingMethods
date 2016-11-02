@@ -7,6 +7,7 @@ import java.util.Scanner;
 
 /**
  * Created by User on 22.10.16.
+ * Вывести числа от 1 до k в виде матрицы N x N слева направо и сверху вниз.
  */
 public class Task_2 {
     public static void main(String[] args) {

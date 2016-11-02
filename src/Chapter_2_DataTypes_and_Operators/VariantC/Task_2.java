@@ -4,6 +4,8 @@ import java.util.Random;
 
 /**
  * Created by Ingener_mobil on 24.10.2016.
+ * Выполнить циклический сдвиг заданной матрицы на k позиций вправо
+ (влево, вверх, вниз)
  */
 public class Task_2 {
     public static void main(String[] args) {

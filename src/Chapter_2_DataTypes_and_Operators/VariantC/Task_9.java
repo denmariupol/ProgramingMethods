@@ -4,6 +4,7 @@ import java.util.Random;
 
 /**
  * Created by Ingener_mobil on 26.10.2016.
+ * Построить матрицу, вычитая из элементов каждой строки матрицы ее среднее арифметическое
  */
 public class Task_9 {
     public static void main(String[] args) {

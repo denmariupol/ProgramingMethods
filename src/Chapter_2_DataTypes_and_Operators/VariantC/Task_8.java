@@ -5,6 +5,7 @@ import java.util.Random;
 
 /**
  * Created by Ingener_mobil on 25.10.2016.
+ * Вычислить определитель матрицы.
  */
 public class Task_8 {
     public static void main(String[] args) {

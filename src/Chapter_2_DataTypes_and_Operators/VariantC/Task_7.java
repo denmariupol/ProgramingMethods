@@ -4,6 +4,7 @@ import java.util.Random;
 
 /**
  * Created by Ingener_mobil on 25.10.2016.
+ * Повернуть матрицу на 90 (180, 270) градусов против часовой стрелки.
  */
 public class Task_7 {
     public static void main(String[] args) {
