@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bc12a7b-278c-4a19-ba2b-f6f3efaa826e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_3/Programm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_4/Programm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled104/Chapter_7_Strings/Variant_A/Task_1/Task_1.class" afterPath="$PROJECT_DIR$/out/production/untitled104/Chapter_7_Strings/Variant_A/Task_1/Task_1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled104/Chapter_7_Strings/Variant_A/Task_2/Programm.class" afterPath="$PROJECT_DIR$/out/production/untitled104/Chapter_7_Strings/Variant_A/Task_2/Programm.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_5/Programm.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/untitled104/Chapter_7_Strings/Variant_A/Task_1/Source.txt" afterPath="$PROJECT_DIR$/out/production/untitled104/Chapter_7_Strings/Variant_A/Task_1/Source.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_1/Source.txt" afterPath="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_1/Source.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_1/Task_1.java" afterPath="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_1/Task_1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Chapter_7_Strings/Examples/Pattern_Matcher/Programm.java" afterPath="$PROJECT_DIR$/src/Chapter_7_Strings/Examples/Pattern_Matcher/Programm.java" />
     </list>
     <ignored path="MetodiProgrammirovaniya.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,10 +35,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Programm.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_4/Programm.java">
+        <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_5/Programm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="632">
-              <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+            <state relative-caret-position="308">
+              <caret line="44" column="46" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,35 +47,21 @@
         </entry>
       </file>
       <file leaf-file-name="Programm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_2/Programm.java">
+        <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Examples/Pattern_Matcher/Programm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+            <state relative-caret-position="220">
+              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Task_1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_1/Task_1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Programm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_3/Programm.java">
+        <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Examples/String_Format/Programm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="198">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -105,7 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Chapter_6_Interface_and_Annotation/Examples/qq.java" />
         <option value="$PROJECT_DIR$/src/Chapter_6_Interface_and_Annotation/qq.java" />
         <option value="$PROJECT_DIR$/src/Chapter_6_Interface_and_Annotation/Examples/Interface_Implementation/aa.java" />
         <option value="$PROJECT_DIR$/src/Chapter_6_Interface_and_Annotation/Examples/aa.java" />
@@ -135,7 +115,6 @@
         <option value="$PROJECT_DIR$/src/Chapter_7_Strings/Sort_Array/SortArray.java" />
         <option value="$PROJECT_DIR$/src/Chapter_7_Strings/Examples/aa.java" />
         <option value="$PROJECT_DIR$/src/Chapter_7_Strings/aa.java" />
-        <option value="$PROJECT_DIR$/src/Chapter_7_Strings/Examples/Pattern_Matcher/Programm.java" />
         <option value="$PROJECT_DIR$/src/Chapter_7_Strings/Examples/Groups_Quantificators/Programm.java" />
         <option value="$PROJECT_DIR$/src/Chapter_7_Strings/Examples/Multilang/property/text_be_BY.properties" />
         <option value="$PROJECT_DIR$/src/Chapter_7_Strings/Examples/Multilang/property/text.properties" />
@@ -156,6 +135,8 @@
         <option value="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_1/Source.txt" />
         <option value="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_3/Programm.java" />
         <option value="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_4/Programm.java" />
+        <option value="$PROJECT_DIR$/src/Chapter_7_Strings/Examples/Pattern_Matcher/Programm.java" />
+        <option value="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_5/Programm.java" />
       </list>
     </option>
   </component>
@@ -228,47 +209,7 @@
       <recent name="E:\Lessons\ProgramingMethods\src\Chapter_6_Interface_and_Annotation\Variant_A\Task_1_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Programm (1)">
-    <configuration default="false" name="Programm (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Chapter_7_Strings.Examples.Format_Flag.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Chapter_7_Strings.Examples.Format_Flag.Programm" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="untitled104" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Task_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Chapter_7_Strings.Variant_A.Task_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Chapter_7_Strings.Variant_A.Task_1.Task_1" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="untitled104" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Programm (2)">
     <configuration default="false" name="Programm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -317,6 +258,46 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Chapter_7_Strings.Variant_A.Task_4.Programm" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="untitled104" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Programm (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Chapter_7_Strings.Variant_A.Task_5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Chapter_7_Strings.Variant_A.Task_5.Programm" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="untitled104" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Programm (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Chapter_7_Strings.Examples.Pattern_Matcher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Chapter_7_Strings.Examples.Pattern_Matcher.Programm" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -722,19 +703,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Programm (3)" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Task_1" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Programm" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Programm (4)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Programm (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Programm" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Programm (4)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Programm (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Programm (2)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Programm (3)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Programm (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Programm (4)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Programm" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Task_1" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Programm (3)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Programm (2)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Programm (3)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Programm (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Programm (4)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Programm" />
       </list>
     </recent_temporary>
   </component>
@@ -770,12 +751,12 @@
       <workItem from="1478108045139" duration="4421000" />
       <workItem from="1478166732587" duration="78902000" />
       <workItem from="1478513372285" duration="14703000" />
-      <workItem from="1478608088335" duration="22736000" />
+      <workItem from="1478608088335" duration="25208000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="352129000" />
+    <option name="totallyTimeSpent" value="354601000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -884,8 +865,14 @@
           <properties />
           <option name="timeStamp" value="46" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_5/Programm.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="60" />
+      <option name="time" value="62" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -894,7 +881,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Chapter_6_Interface_and_Annotation/Examples/Interface_Implementation/PentagonAction.java" />
     <entry file="file://$PROJECT_DIR$/src/Chapter_6_Interface_and_Annotation/Examples/Interface_Implementation/ILineGroupAction.java" />
     <entry file="file://$PROJECT_DIR$/src/Chapter_6_Interface_and_Annotation/Examples/Interface_Implementation/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1059,13 +1045,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Examples/Pattern_Matcher/Programm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Examples/Groups_Quantificators/Programm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="458">
@@ -1152,17 +1131,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Examples/String_Format/Programm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Examples/NumberFormatter/Programm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1170,6 +1143,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1177,6 +1153,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="502">
           <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1197,21 +1174,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_3/Programm.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_2/Programm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="172">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_4/Programm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_2/Programm.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_3/Programm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="22">
+          <caret line="15" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1225,10 +1212,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_4/Programm.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Examples/Pattern_Matcher/Programm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+        <state relative-caret-position="220">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Examples/String_Format/Programm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_5/Programm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="44" column="46" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -9,8 +9,8 @@ import java.util.regex.Pattern;
  */
 public class Programm {
     public static void main(String[] args) {
-        Pattern p1 = Pattern.compile("a+y");//возвращает Pattern, который соответствует regex;
-        Matcher m1 = p1.matcher("aaay");
+        Pattern p1 = Pattern.compile("тала");//возвращает Pattern, который соответствует regex;
+        Matcher m1 = p1.matcher("Работала");
         boolean b = m1.matches();
         System.out.println(b);
         String regex = "(\\w{6,})@(\\w+\\.)([a-z]{2,4})";
