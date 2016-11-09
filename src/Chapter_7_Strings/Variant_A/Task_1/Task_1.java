@@ -39,7 +39,7 @@ public class Task_1 {
                 }
             }
         }catch (FileNotFoundException e){
-            System.out.println(e.getMessage());
+            System.out.println("!!"+e.getMessage());
         }
     }
 }
