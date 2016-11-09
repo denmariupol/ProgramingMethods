@@ -13,7 +13,7 @@ import java.util.regex.Pattern;
  */
 public class Programm {
     public static void main(String[] args) {
-        File file = new File("E:\\Lessons\\ProgramingMethods\\src\\Chapter_7_Strings\\Variant_A\\Task_1\\Source.txt");
+        File file = new File("D:\\Java\\TestDir\\MetodiProgrammirovaniya\\src\\Chapter_7_Strings\\Variant_A\\Task_1\\Source.txt");
         StringBuilder sb = new StringBuilder();
         System.out.println("Введите подстроку: ");
         Scanner scan = new Scanner(System.in);
@@ -28,17 +28,15 @@ public class Programm {
                 String w = scanner.nextLine();
                 Scanner s = new Scanner(w);
                 while (s.hasNext()){
-                    System.out.println(s.next());
-                    if(s.next().contains(subStr)) {
-                        sb.append(s.next() + " ");
+                    String str = s.next();
+                    if(str.contains(subStr)) {
+                        sb.append(str + " ");
                         sb.append(word + " ");
                     }
                     else
-                        sb.append(s.next()+" ");
+                        sb.append(str+" ");
                 }
-
                 sb.append("\n");
-                break;
             }
             System.out.println(sb.toString());
         }catch (FileNotFoundException e){
