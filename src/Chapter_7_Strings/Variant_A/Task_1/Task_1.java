@@ -1,4 +1,4 @@
-package Chapter_7_Strings.Variant_A;
+package Chapter_7_Strings.Variant_A.Task_1;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 public class Task_1 {
     public static void main(String[] args) {
-        File file = new File("E:\\Lessons\\ProgramingMethods\\src\\Chapter_7_Strings\\Variant_A\\Source.txt");
+        File file = new File("E:\\Lessons\\ProgramingMethods\\src\\Chapter_7_Strings\\Variant_A\\Task_1\\Source.txt");
         Scanner input = new Scanner(System.in);
         System.out.print("Введите символ :");
         String newChar = input.next();
