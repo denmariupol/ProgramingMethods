@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bc12a7b-278c-4a19-ba2b-f6f3efaa826e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_19/Programm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_20/Programm.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_19/Programm.java" afterPath="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_19/Programm.java" />
     </list>
     <ignored path="MetodiProgrammirovaniya.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,11 +41,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Programm.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Programm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_19/Programm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+            <state relative-caret-position="260">
+              <caret line="29" column="65" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Programm.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_20/Programm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,7 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Chapter_3_Class_and_Objects/Variant_A/Task_5/Author.java" />
         <option value="$PROJECT_DIR$/src/Chapter_3_Class_and_Objects/Variant_A/Task_5/Publisher.java" />
         <option value="$PROJECT_DIR$/src/Chapter_3_Class_and_Objects/Variant_A/Task_5/Programm.java" />
         <option value="$PROJECT_DIR$/src/Chapter_3_Class_and_Objects/Variant_A/Task_5/Year.java" />
@@ -123,6 +135,7 @@
         <option value="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_18/Programm.java" />
         <option value="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_17/Programm.java" />
         <option value="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_19/Programm.java" />
+        <option value="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_20/Programm.java" />
       </list>
     </option>
   </component>
@@ -186,27 +199,7 @@
       <recent name="Chapter_3_Class_and_Objects.Variant_A.Task_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Programm (1)">
-    <configuration default="false" name="Programm (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Chapter_7_Strings.Variant_A.Task_14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Chapter_7_Strings.Variant_A.Task_14.Programm" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="untitled104" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Programm (2)">
     <configuration default="false" name="Programm (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -275,6 +268,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Chapter_7_Strings.Variant_A.Task_19.Programm" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="untitled104" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Programm (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Chapter_7_Strings.Variant_A.Task_20.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Chapter_7_Strings.Variant_A.Task_20.Programm" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -680,19 +693,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Programm (3)" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Programm (4)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Programm (5)" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Programm" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Programm (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Programm (4)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Programm (5)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Programm" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Programm (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Programm (2)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Programm (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Programm" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Programm (5)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Programm (4)" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Programm (3)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Programm (2)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Programm (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Programm" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Programm (5)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Programm (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -730,12 +743,12 @@
       <workItem from="1478336345748" duration="632000" />
       <workItem from="1478712856507" duration="24000" />
       <workItem from="1478712907072" duration="5223000" />
-      <workItem from="1478753298284" duration="29016000" />
+      <workItem from="1478753298284" duration="29504000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="295387000" />
+    <option name="totallyTimeSpent" value="295875000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -854,13 +867,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Chapter_2_DataTypes_and_Operators/VariantA/Task_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="36" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter_2_DataTypes_and_Operators/VariantA/Task_1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
@@ -1232,8 +1238,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_19/Programm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="260">
+          <caret line="29" column="65" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_20/Programm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
