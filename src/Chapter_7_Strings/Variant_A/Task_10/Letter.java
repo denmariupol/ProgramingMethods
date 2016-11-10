@@ -4,8 +4,8 @@ package Chapter_7_Strings.Variant_A.Task_10;
  * Created by Ingener_mobil on 10.11.2016.
  */
 public class Letter {
-    char ch;
-    int frequency=0;
+    private char ch;
+    private int frequency=0;
 
     public char getCh() {
         return ch;
