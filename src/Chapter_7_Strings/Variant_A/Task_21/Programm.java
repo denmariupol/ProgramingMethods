@@ -1,4 +1,4 @@
-package Chapter_7_Strings.Variant_A.Task_20;
+package Chapter_7_Strings.Variant_A.Task_21;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -8,13 +8,13 @@ import java.util.regex.Pattern;
 
 /**
  * Created by Ingener_mobil on 10.11.2016.
- * Подсчитать количество содержащихся в данном тексте знаков препинания.
+ * В заданном тексте найти сумму всех встречающихся цифр.
  */
 public class Programm {
     public static void main(String[] args) {
         File file = new File("E:\\Lessons\\ProgramingMethods\\src\\Chapter_7_Strings\\Variant_A\\Task_1\\Source.txt");
         Scanner scanner = null;
-        int count = 0;
+        int sum = 0;
         try {
             scanner = new Scanner(file);
         } catch (FileNotFoundException e) {
@@ -25,13 +25,17 @@ public class Programm {
             Scanner scanner1 = new Scanner(str);
             while (scanner1.hasNext()) {
                 String word = scanner1.next();
-                Pattern pat = Pattern.compile("\\p{Punct}");
+                Pattern pat = Pattern.compile("\\d+");
                 Matcher matcher = pat.matcher(word);
                 while (matcher.find()) {
-                    count++;
+                    System.out.println(matcher.group());
+                    char[] num = matcher.group().toCharArray();
+                    for (int i = 0; i < num.length; i++) {
+                        sum+= Character.getNumericValue(num[i]);
+                    }
                 }
             }
         }
-        System.out.println("Колличество знаков: "+count);
+        System.out.println("Сумма цифр в тексте: "+sum);
     }
 }
