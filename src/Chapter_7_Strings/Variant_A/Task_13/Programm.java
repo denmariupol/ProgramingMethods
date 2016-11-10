@@ -1,15 +1,13 @@
-package Chapter_7_Strings.Variant_A.Task_12;
+package Chapter_7_Strings.Variant_A.Task_13;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 import java.util.TreeSet;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 /**
  * Created by Ingener_mobil on 10.11.2016.
- * В стихотворении найти количество слов, начинающихся и заканчивающихся гласной буквой.
+ * Напечатать без повторения слова текста, у которых первая и последняя буквы совпадают.
  */
 public class Programm {
     public static void main(String[] args) {
@@ -25,8 +23,7 @@ public class Programm {
             String word = scanner.next().replaceAll("\\p{Punct}", "").trim();
             char []chars = word.toCharArray();
 
-            if(Character.toString(chars[0]).matches("[БВГДЖЗКЛМНПРСТФХЦЧШЩбвгджзйклмнпрстфхцчшщ]") &&
-                    Character.toString(chars[chars.length-1]).matches("[БВГДЖЗКЛМНПРСТФХЦЧШЩбвгджзйклмнпрстфхцчшщ]")) {
+            if(chars[0] == chars[chars.length - 1] && chars.length > 1) {
 //                words.add(word);
                 System.out.println(word);
             }
