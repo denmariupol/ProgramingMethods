@@ -11,6 +11,8 @@ import java.util.regex.Pattern;
 
 /**
  * Created by Ingener_mobil on 10.11.2016.
+ * Найти, каких букв, гласных или согласных, больше в каждом предложении
+ текста
  */
 public class Programm {
     public static void main(String[] args) {
