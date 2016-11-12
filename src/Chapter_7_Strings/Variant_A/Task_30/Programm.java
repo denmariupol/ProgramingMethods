@@ -15,7 +15,7 @@ public class Programm {
         File file = new File("E:\\Lessons\\ProgramingMethods\\src\\Chapter_7_Strings\\Variant_A\\Task_1\\Source.txt");
         TreeSet<String> words = new TreeSet<String>();
         Scanner scanner = null;
-        
+
         try {
             scanner = new Scanner(file);
         } catch (FileNotFoundException e) {
