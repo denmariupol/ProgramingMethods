@@ -1,10 +1,9 @@
-package Chapter_7_Strings.Variant_B.Task_1;
+package Chapter_7_Strings.Variant_B.Task_2;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.Scanner;
 
 /**
@@ -32,32 +31,10 @@ public class Run {
             }
             SortChars(' ');
         }
+        Collections.sort(sentences,new Sentence());
         for (Sentence sentence : sentences) {
-            int count = 0;
-            ArrayList<Integer> breakI = new ArrayList<Integer>();
-            for (int i = 0; i < sentence.getWords().size(); i++) {
-                for (int j = i+1; j < sentence.getWords().size(); j++) {
-                    if (breakI.contains(i))
-                        continue;
-                    if (sentence.getWords().get(i).equals(sentence.getWords().get(j)) &&
-                            !sentence.getWords().get(i).getWord().equals("")) {
-                        count++;
-                        breakI.add(j);
-//                        System.out.print(sentence.getWords().get(j)+" ");
-                    }
-                }
-            }
-            sentence.setCount(count);
-//            System.out.println(sentence.getCount() + " " + sentence.getWords());
+            System.out.println(sentence.getWords().size() + " " + sentence.getWords());
         }
-        Collections.sort(sentences, new Sentence());
-        for (int i = 0; i < sentences.size(); i++) {
-            int temp = sentences.get(0).getCount();
-            if(temp == sentences.get(i).getCount())
-                System.out.println(sentences.get(i).toString());
-        }
-
-
     }
 
     private void SortChars(char c) {

@@ -1,4 +1,4 @@
-package Chapter_7_Strings.Variant_B.Task_1;
+package Chapter_7_Strings.Variant_B.Task_2;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -14,37 +14,22 @@ public class Sentence implements Comparator<Sentence>{
         return words;
     }
 
-    public void setCount(int count) {
-        this.count = count;
-    }
-
     public int getCount() {
         return count;
     }
 
+    public void setCount(int count) {
+        this.count = count;
+    }
     public Sentence(){}
     public Sentence(ArrayList<Word> w) {
         for (Word word : w) {
             this.words.add(word);
         }
     }
+
     @Override
     public int compare(Sentence o1, Sentence o2) {
-        return o2.getCount() - o1.getCount();
-    }
-    @Override
-    public String toString(){
-        StringBuilder sb = new StringBuilder(count + " ");
-        for (Word word : words) {
-            sb.append(word+" ");
-        }
-        return sb.toString();
+        return o2.getWords().size() - o1.getWords().size();
     }
 }
-//class SentenceComparator implements Comparator<Sentence>{
-//
-//    @Override
-//    public int compare(Sentence o1, Sentence o2) {
-//        return o2.getCount() - o1.getCount();
-//    }
-//}

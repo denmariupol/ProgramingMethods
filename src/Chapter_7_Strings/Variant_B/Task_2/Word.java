@@ -1,4 +1,4 @@
-package Chapter_7_Strings.Variant_B.Task_1;
+package Chapter_7_Strings.Variant_B.Task_2;
 
 import java.util.ArrayList;
 
