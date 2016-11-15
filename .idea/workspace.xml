@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bc12a7b-278c-4a19-ba2b-f6f3efaa826e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_4/Programm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_4/Run.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_4/Sentence.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_4/Unit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_4/Word.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_5/Programm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_5/Run.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_5/Sentence.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_5/Unit.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_5/Word.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_6/Programm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_6/Run.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_6/Sentence.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_6/Unit.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_6/Word.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_1/Source.txt" afterPath="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_1/Source.txt" />
     </list>
     <ignored path="MetodiProgrammirovaniya.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,7 +39,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Source.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Source.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_1/Source.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
@@ -45,51 +49,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sentence.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_4/Sentence.java">
+      <file leaf-file-name="Run.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_6/Run.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
-              <folding />
+            <state relative-caret-position="261">
+              <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
+              <folding>
+                <element signature="e#710#718#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Programm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_4/Programm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="101" selection-start-line="9" selection-start-column="101" selection-end-line="9" selection-end-column="101" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Word.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_4/Word.java">
+        <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_6/Programm.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
               <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Unit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_4/Unit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Run.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_4/Run.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="37" column="53" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -115,14 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Chapter_4_Polimorphizm_and_Inheritance/Examples/CloneObject/CloneRunner.java" />
-        <option value="$PROJECT_DIR$/src/Chapter_4_Polimorphizm_and_Inheritance/Examples/CloneObject/Student.java" />
-        <option value="$PROJECT_DIR$/src/Chapter_4_Polimorphizm_and_Inheritance/Variant_A/Task_1/Word.java" />
-        <option value="$PROJECT_DIR$/src/Chapter_4_Polimorphizm_and_Inheritance/Variant_A/Task_1/Sentence.java" />
-        <option value="$PROJECT_DIR$/src/Chapter_4_Polimorphizm_and_Inheritance/Variant_A/Task_1/Text.java" />
-        <option value="$PROJECT_DIR$/src/Chapter_4_Polimorphizm_and_Inheritance/Variant_A/Task_1/Programm.java" />
-        <option value="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_5/Programm.java" />
-        <option value="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_7/Programm.java" />
         <option value="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_8/Programm.java" />
         <option value="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_9/WordFrequency.java" />
         <option value="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_9/Programm.java" />
@@ -166,6 +134,14 @@
         <option value="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_1/Source.txt" />
         <option value="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_4/Sentence.java" />
         <option value="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_4/Run.java" />
+        <option value="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_5/Task_4/Sentence.java" />
+        <option value="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_5/Sentence.java" />
+        <option value="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_5/Programm.java" />
+        <option value="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_5/Run.java" />
+        <option value="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_6/Task_5/Unit.java" />
+        <option value="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_6/Unit.java" />
+        <option value="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_6/Programm.java" />
+        <option value="$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_6/Run.java" />
       </list>
     </option>
   </component>
@@ -208,104 +184,7 @@
       <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProgramingMethods" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProgramingMethods" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProgramingMethods" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProgramingMethods" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProgramingMethods" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter_7_Strings" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Variant_B" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProgramingMethods" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProgramingMethods" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter_7_Strings" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Variant_B" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Task_4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProgramingMethods" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProgramingMethods" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter_7_Strings" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProgramingMethods" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProgramingMethods" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
       <pane id="Scope" />
     </panes>
@@ -326,53 +205,14 @@
       <recent name="Chapter_3_Class_and_Objects.Variant_A.Task_2" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Lessons\ProgramingMethods\src\Chapter_7_Strings\Variant_B\Task_6" />
+      <recent name="E:\Lessons\ProgramingMethods\src\Chapter_7_Strings\Variant_B\Task_5" />
       <recent name="E:\Lessons\ProgramingMethods\src\Chapter_7_Strings\Variant_B\Task_4" />
       <recent name="E:\Lessons\ProgramingMethods\src\Chapter_7_Strings\Variant_B\Task_3" />
       <recent name="E:\Lessons\ProgramingMethods\src\Chapter_7_Strings\Variant_B\Task_1" />
-      <recent name="E:\Lessons\ProgramingMethods\src\Chapter_7_Strings\Variant_B\Task_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Programm (4)">
-    <configuration default="false" name="Programm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Chapter_7_Strings.Variant_A.Task_30.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Chapter_7_Strings.Variant_A.Task_30.Programm" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="untitled104" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Programm (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Chapter_7_Strings.Variant_B.Task_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Chapter_7_Strings.Variant_B.Task_1.Programm" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="untitled104" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Programm">
     <configuration default="false" name="Programm (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -421,6 +261,46 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Chapter_7_Strings.Variant_B.Task_4.Programm" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="untitled104" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Programm (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Chapter_7_Strings.Variant_B.Task_5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Chapter_7_Strings.Variant_B.Task_5.Programm" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="untitled104" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Programm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Chapter_7_Strings.Variant_B.Task_6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Chapter_7_Strings.Variant_B.Task_6.Programm" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -826,19 +706,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Programm" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Programm (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Programm (2)" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Programm (3)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Programm (4)" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Programm (2)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Programm (3)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Programm (4)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Programm (5)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Programm" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Programm (4)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Programm (3)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Programm (2)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Programm (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Programm" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Programm" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Programm (5)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Programm (4)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Programm (3)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Programm (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -877,12 +757,12 @@
       <workItem from="1478712856507" duration="24000" />
       <workItem from="1478712907072" duration="5223000" />
       <workItem from="1478753298284" duration="66040000" />
-      <workItem from="1479030965865" duration="9846000" />
+      <workItem from="1479030965865" duration="14069000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="342257000" />
+    <option name="totallyTimeSpent" value="346480000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -895,7 +775,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1378" height="776" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -914,7 +794,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48608837" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37315875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -938,17 +818,17 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48874173" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48608837" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32405892" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3207856" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30337942" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3003072" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295107" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987553" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14746544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15053764" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733223" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
@@ -992,7 +872,7 @@
           <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="72" />
+      <option name="time" value="73" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -1005,101 +885,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_1/Task_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="29" column="74" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_8/Programm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="128" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="128" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_9/WordFrequency.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="e#210#211#0" expanded="false" />
-            <element signature="e#237#238#0" expanded="false" />
-            <element signature="e#270#271#0" expanded="false" />
-            <element signature="e#302#303#0" expanded="false" />
-            <element signature="e#336#337#0" expanded="false" />
-            <element signature="e#368#369#0" expanded="false" />
-            <element signature="e#409#410#0" expanded="false" />
-            <element signature="e#441#442#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_11/Sentence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="e#241#242#0" expanded="false" />
-            <element signature="e#272#273#0" expanded="false" />
-            <element signature="e#301#302#0" expanded="false" />
-            <element signature="e#329#330#0" expanded="false" />
-            <element signature="e#362#363#0" expanded="false" />
-            <element signature="e#394#395#0" expanded="false" />
-            <element signature="e#434#435#0" expanded="false" />
-            <element signature="e#474#475#0" expanded="false" />
-            <element signature="e#502#503#0" expanded="false" />
-            <element signature="e#530#531#0" expanded="false" />
-            <element signature="e#562#563#0" expanded="false" />
-            <element signature="e#594#595#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_9/Programm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="42" column="5" selection-start-line="15" selection-start-column="8" selection-end-line="42" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#582#590#0" expanded="false" />
-            <element signature="e#658#673#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_10/Programm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="43" column="0" selection-start-line="15" selection-start-column="8" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_10/Letter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="27" column="5" selection-start-line="6" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_16/Letter.java" />
-    <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_25/Programm.java" />
-    <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_24/Programm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="44" column="56" selection-start-line="14" selection-start-column="8" selection-end-line="44" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_22/Programm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1430,11 +1215,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_5/Unit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_5/Word.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_5/Sentence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_A/Task_1/Source.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_5/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_5/Programm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="103" selection-start-line="9" selection-start-column="103" selection-end-line="9" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_6/Sentence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_6/Word.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_6/Unit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_6/Programm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter_7_Strings/Variant_B/Task_6/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
+          <folding>
+            <element signature="e#710#718#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
