@@ -1,11 +1,11 @@
-package Chapter_7_Strings.Variant_B.Task_7;
+package Chapter_7_Strings.Variant_B.Task_8;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.Scanner;
-import java.util.TreeSet;
 
 /**
  * Created by Ingener_mobil on 12.11.2016.
@@ -33,13 +33,18 @@ public class Run {
 
         for (Sentence sentence : sentences) {
             for (Word word : sentence.getWords()) {
-                word.Dimension();
-                words.add(word);
+                String[] alph = {"а", "е", "и", "о", "у", "э", "ю", "я"};
+                float a = 0;
+                char[] ch = word.getWord().toCharArray();
+                if (Arrays.asList(alph).contains(Character.toString(ch[0]))
+                        && ch.length>1 &&
+                        !Arrays.asList(alph).contains(Character.toString(ch[1])))
+                    words.add(word);
             }
         }
-        Collections.sort(words,new Word());
+        Collections.sort(words, new Word());
         for (Word word : words) {
-            System.out.println(word+" "+word.getDimension());
+            System.out.println(word);
         }
     }
 
@@ -56,6 +61,7 @@ public class Run {
                 return;
             words.add(new Word(symbols));
             symbols.clear();
+
         }
     }
 }
