@@ -5,7 +5,7 @@ import java.util.Random;
 /**
  * Created by Ingener_mobil on 04.11.2016.
  */
-public class Word {
+class Word {
 
     private  int id;
     private String word;

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /**
  * Created by Ingener_mobil on 04.11.2016.
  */
-public class Text {
+class Text {
     private String title;
     private ArrayList<Sentence> text = new ArrayList<Sentence>();
 

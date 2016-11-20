@@ -5,7 +5,7 @@ import java.io.InvalidObjectException;
 /**
  * Created by Ingener_mobil on 17.11.2016.
  */
-public class Programm {
+public class SerializeDeserialize {
     public static void main(String[] args) {
         //creation and writing object
         Student ob = new Student("MMF","Peter",254778,"qwerty");
