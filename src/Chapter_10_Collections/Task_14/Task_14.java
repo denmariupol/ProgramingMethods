@@ -1,23 +1,21 @@
-package Chapter_10_Collections.Task_16;
+package Chapter_10_Collections.Task_14;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.HashSet;
+import java.util.Collections;
 import java.util.LinkedList;
 import java.util.Scanner;
-import java.util.TreeSet;
 
 /**
  * Created by Ingener_mobil on 24.11.2016.
- * Задан файл с текстом на английском языке. Выделить все различные слова.
- Слова, отличающиеся только регистром букв, считать одинаковыми.
- Использовать класс HashSet.
+ * Ввести строки из файла, записать в список ArrayList.
+ * Выполнить сортировку строк, используя метод sort() из класса Collections
  */
-public class Task_16 {
+public class Task_14 {
     public static void main(String[] args) {
         File file = new File("E:\\Lessons\\ProgramingMethods\\src\\Chapter_9_IO\\Source.txt");
         Scanner scanner = null;
-        HashSet<String> set = new HashSet<>();
+        LinkedList<String> list = new LinkedList<>();
         try {
             scanner = new Scanner(file);
         } catch (FileNotFoundException e) {
@@ -26,12 +24,12 @@ public class Task_16 {
         while (scanner.hasNext()){
             String w = scanner.next();
             String word = w.replaceAll("\\p{Punct}","");
-            if (set.contains(word.toLowerCase()) || set.contains(word.toUpperCase()))
-                continue;
             if(word.length()>0)
-                set.add(word);
+                list.add(word);
         }
-        for (String s : set) {
+        Collections.sort(list);
+
+        for (String s : list) {
             System.out.println(s);
         }
     }
