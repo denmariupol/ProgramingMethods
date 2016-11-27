@@ -5,7 +5,7 @@ package Chapter_11_Threads.Examples.Atomic_Field;
  */
 public class Broker extends Thread {
     private Market market;
-    private static final int PAUSE = 500;
+    private static final int PAUSE = 1;
     public Broker(Market market){
         this.market = market;
     }
