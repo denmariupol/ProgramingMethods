@@ -1,5 +1,4 @@
 package Chapter_11_Threads.Examples.Barrier;
-import Chapter_11_Threads.Examples.ResourcePool.AudioChannel;
 
 import java.util.Random;
 

@@ -1,7 +1,5 @@
 package Chapter_11_Threads.Examples.Synchronizing;
 
-import Chapter_11_Threads.Examples.Synchronizing.Resource;
-
 /**
  * Created by Ingener_mobil on 26.11.2016.
  */

@@ -1,7 +1,5 @@
 package Chapter_11_Threads.Examples.CountDownLatch;
 
-import Chapter_9_IO.Examples.Serilization_Deserialization.*;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;

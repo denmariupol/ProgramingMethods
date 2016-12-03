@@ -1,7 +1,5 @@
 package Chapter_11_Threads.Examples.Synchronizing;
 
-import com.sun.corba.se.impl.orbutil.concurrent.Sync;
-
 import java.io.IOException;
 
 /**

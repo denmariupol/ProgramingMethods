@@ -1,7 +1,5 @@
 package Chapter_11_Threads.Examples.Exchanger;
 
-import java.awt.image.renderable.RenderableImageProducer;
-
 /**
  * Created by Ingener_mobil on 29.11.2016.
  * Поток Producer представляет информацию о количестве произведенного товара, поток Consumer
