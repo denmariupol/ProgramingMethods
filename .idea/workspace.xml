@@ -2,13 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bc12a7b-278c-4a19-ba2b-f6f3efaa826e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Variant_A/Task_1/Programm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Variant_A/Task_1/Port.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Variant_A/Task_1/Ship.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Barrier/AuctionRunner.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Barrier/AuctionRunner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/CountDownLatch/Tutor.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/CountDownLatch/Tutor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Exchanger/RunExchange.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Exchanger/RunExchange.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Synchronizing/Programm.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Synchronizing/Programm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Synchronizing/SyncThread.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Synchronizing/SyncThread.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Variant_A/Task_1/Programm.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Variant_A/Task_1/Programm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Atomic_Field/Broker.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/H_Atomic_Field/Broker.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Atomic_Field/Market.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/H_Atomic_Field/Market.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Atomic_Field/Programm.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/H_Atomic_Field/Programm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Barrier/Auction.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/O_Barrier/Auction.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Barrier/AuctionRunner.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/O_Barrier/AuctionRunner.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Barrier/Bid.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/O_Barrier/Bid.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/BlockingQueue/RunBlocking.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/M_BlockingQueue/RunBlocking.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/CountDownLatch/RunLearning.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/P_CountDownLatch/RunLearning.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/CountDownLatch/Student.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/P_CountDownLatch/Student.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/CountDownLatch/Task.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/P_CountDownLatch/Task.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/CountDownLatch/Tutor.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/P_CountDownLatch/Tutor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Daemon/Daemon.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/E_Daemon/Daemon.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Daemon/Programm.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/E_Daemon/Programm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Exception_Generation/ExceptThread.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/F_Exception_Generation/ExceptThread.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Exception_Generation/Programm.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/F_Exception_Generation/Programm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Exception_in_Main_Thread/Programm.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/G_Exception_in_Main_Thread/Programm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Exception_in_Main_Thread/SimpleThread.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/G_Exception_in_Main_Thread/SimpleThread.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Exchanger/Consumer.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Q_Exchanger/Consumer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Exchanger/Item.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Q_Exchanger/Item.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Exchanger/Producer.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Q_Exchanger/Producer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Exchanger/RunExchange.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Q_Exchanger/RunExchange.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Exchanger/Subject.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Q_Exchanger/Subject.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/ExecutorService_Callable/BaseCallable.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/S_ExecutorService_Callable/BaseCallable.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/ExecutorService_Callable/CalcCallable.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/S_ExecutorService_Callable/CalcCallable.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/ExecutorService_Callable/CalcRunner.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/S_ExecutorService_Callable/CalcRunner.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/ExecutorService_Callable/ProductList.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/S_ExecutorService_Callable/ProductList.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/ExecutorService_Callable/RunExecutor.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/S_ExecutorService_Callable/RunExecutor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Phaser/Item.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/T_Phaser/Item.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Phaser/PhaserDemo.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/T_Phaser/PhaserDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Phaser/Storage.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/T_Phaser/Storage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Phaser/Truck.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/T_Phaser/Truck.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Priority/Priority.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/B_Priority/Priority.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Priority/Programm.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/B_Priority/Programm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Reentrant_Lock/DoubleResource.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/R_Reentrant_Lock/DoubleResource.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Reentrant_Lock/ResThread.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/R_Reentrant_Lock/ResThread.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Reentrant_Lock/SynchroMain.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/R_Reentrant_Lock/SynchroMain.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/ResourcePool/AudioChannel.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/N_ResourcePool/AudioChannel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/ResourcePool/ChannelPool.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/N_ResourcePool/ChannelPool.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/ResourcePool/Client.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/N_ResourcePool/Client.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/ResourcePool/ResourсeException.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/N_ResourcePool/ResourсeException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/ResourcePool/Runner.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/N_ResourcePool/Runner.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/StringBuffer_Thread_Safety/BufferThread.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/K_StringBuffer_Thread_Safety/BufferThread.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Synchronizing/Programm.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/I_Synchronizing/Programm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Synchronizing/Resource.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/I_Synchronizing/Resource.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Synchronizing/SyncThread.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/I_Synchronizing/SyncThread.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Syncronized_by_Thread/TwoThread.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/J_Syncronized_by_Thread/TwoThread.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Thread/Programm.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/A_Thread/Programm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Thread/R_Runnable.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/A_Thread/R_Runnable.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Thread/T_Thread.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/A_Thread/T_Thread.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Thread_Suspending/JoinThread.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/C_Thread_Suspending/JoinThread.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Thread_Suspending/Programm.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/C_Thread_Suspending/Programm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Wait_Notify/Payment.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/L_Wait_Notify/Payment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Wait_Notify/PaymentRunner.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/L_Wait_Notify/PaymentRunner.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Yield_Demo/YieldDemo.java" afterPath="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/D_Yield_Demo/YieldDemo.java" />
     </list>
     <ignored path="MetodiProgrammirovaniya.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,70 +92,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Truck.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Phaser/Truck.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Item.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Phaser/Item.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-              <folding>
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Storage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Phaser/Storage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#582#583#0" expanded="true" />
-                <element signature="e#935#936#0" expanded="true" />
-                <element signature="e#970#971#0" expanded="true" />
-                <element signature="e#1010#1011#0" expanded="true" />
-                <element signature="e#1048#1049#0" expanded="true" />
-                <element signature="e#1101#1102#0" expanded="true" />
-                <element signature="e#1140#1141#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PhaserDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Phaser/PhaserDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Programm.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Variant_A/Task_1/Programm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+            <state relative-caret-position="374">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -130,16 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Exception_Generation/ExceptThread.java" />
-        <option value="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Exception_Generation/Programm.java" />
-        <option value="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Exception_in_Main_Thread/SimpleThread.java" />
-        <option value="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Exception_in_Main_Thread/Programm.java" />
-        <option value="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Atomic_Field/Broker.java" />
-        <option value="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Atomic_Field/Market.java" />
-        <option value="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Atomic_Field/Programm.java" />
-        <option value="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/SyncThread.java" />
-        <option value="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Synchronizing/SyncThread.java" />
-        <option value="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Synchronizing/Programm.java" />
         <option value="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Synchronizing/Resource.java" />
         <option value="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Syncronized_by_Thread/Programm.java" />
         <option value="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Syncronized_by_Thread/TwoThread.java" />
@@ -181,6 +163,16 @@
         <option value="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Phaser/Truck.java" />
         <option value="$PROJECT_DIR$/src/Chapter_11_Threads/Variant_A/aa.java" />
         <option value="$PROJECT_DIR$/src/Chapter_11_Threads/Variant_A/Task_1/Programm.java" />
+        <option value="$PROJECT_DIR$/src/Chapter_11_Threads/Variant_A/Task_1/Ship.java" />
+        <option value="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/A_Thread/Programm.java" />
+        <option value="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/C_Thread_Suspending/Programm.java" />
+        <option value="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/D_Yield_Demo/YieldDemo.java" />
+        <option value="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/F_Exception_Generation/Programm.java" />
+        <option value="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/G_Exception_in_Main_Thread/Programm.java" />
+        <option value="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/I_Synchronizing/Resource.java" />
+        <option value="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/K_StringBuffer_Thread_Safety/BufferThread.java" />
+        <option value="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/L_Wait_Notify/Payment.java" />
+        <option value="$PROJECT_DIR$/src/Chapter_11_Threads/Examples/M_BlockingQueue/RunBlocking.java" />
       </list>
     </option>
   </component>
@@ -357,11 +349,11 @@
     <configuration default="false" name="RunExchange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Chapter_11_Threads.Examples.Exchanger.*" />
+          <option name="PATTERN" value="Chapter_11_Threads.Examples.Q_Exchanger.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Chapter_11_Threads.Examples.Exchanger.RunExchange" />
+      <option name="MAIN_CLASS_NAME" value="Chapter_11_Threads.Examples.Q_Exchanger.RunExchange" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -377,11 +369,11 @@
     <configuration default="false" name="SynchroMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Chapter_11_Threads.Examples.Reentrant_Lock.*" />
+          <option name="PATTERN" value="Chapter_11_Threads.Examples.R_Reentrant_Lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Chapter_11_Threads.Examples.Reentrant_Lock.SynchroMain" />
+      <option name="MAIN_CLASS_NAME" value="Chapter_11_Threads.Examples.R_Reentrant_Lock.SynchroMain" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -397,11 +389,11 @@
     <configuration default="false" name="CalcRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Chapter_11_Threads.Examples.ExecutorService_Callable.*" />
+          <option name="PATTERN" value="Chapter_11_Threads.Examples.S_ExecutorService_Callable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Chapter_11_Threads.Examples.ExecutorService_Callable.CalcRunner" />
+      <option name="MAIN_CLASS_NAME" value="Chapter_11_Threads.Examples.S_ExecutorService_Callable.CalcRunner" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -417,11 +409,11 @@
     <configuration default="false" name="RunExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Chapter_11_Threads.Examples.ExecutorService_Callable.*" />
+          <option name="PATTERN" value="Chapter_11_Threads.Examples.S_ExecutorService_Callable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Chapter_11_Threads.Examples.ExecutorService_Callable.RunExecutor" />
+      <option name="MAIN_CLASS_NAME" value="Chapter_11_Threads.Examples.S_ExecutorService_Callable.RunExecutor" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -437,11 +429,11 @@
     <configuration default="false" name="PhaserDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Chapter_11_Threads.Examples.Phaser.*" />
+          <option name="PATTERN" value="Chapter_11_Threads.Examples.T_Phaser.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Chapter_11_Threads.Examples.Phaser.PhaserDemo" />
+      <option name="MAIN_CLASS_NAME" value="Chapter_11_Threads.Examples.T_Phaser.PhaserDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -902,12 +894,12 @@
       <workItem from="1479358799699" duration="92821000" />
       <workItem from="1480311596556" duration="20689000" />
       <workItem from="1480432955114" duration="596000" />
-      <workItem from="1480575406383" duration="6116000" />
+      <workItem from="1480575406383" duration="7503000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="491986000" />
+    <option name="totallyTimeSpent" value="493373000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -919,7 +911,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1378" height="776" extended-state="0" />
+    <frame x="-8" y="0" width="1378" height="776" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -936,6 +928,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19508448" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -948,7 +941,6 @@
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="92" y="100" width="1178" height="576" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905295" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1001,12 +993,6 @@
           <properties />
           <option name="timeStamp" value="86" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/StringBuffer_Thread_Safety/BufferThread.java</url>
-          <line>12</line>
-          <properties />
-          <option name="timeStamp" value="90" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Chapter_10_Collections/Variant_B/Task_1/Task_1.java</url>
           <line>43</line>
@@ -1023,83 +1009,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Exception_Generation/ExceptThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Exception_in_Main_Thread/SimpleThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Exception_in_Main_Thread/Programm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Atomic_Field/Broker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Atomic_Field/Market.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Atomic_Field/Programm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_9_IO/Variant_A/Task_1/Task_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="17" column="90" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Synchronizing/Programm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Synchronizing/SyncThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestDir/Syncronized.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Synchronizing/Resource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Syncronized_by_Thread/Programm.java" />
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_101/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1108,7 +1017,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Syncronized_by_Thread/TwoThread.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/J_Syncronized_by_Thread/TwoThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
@@ -1116,131 +1025,109 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Questions_and_Answers" />
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Wait_Notify/PaymentRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/L_Wait_Notify/PaymentRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Wait_Notify/Payment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/StringBuffer_Thread_Safety/BufferThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/BlockingQueue/RunBlocking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/ResourcePool/Runner.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/N_ResourcePool/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/ResourcePool/ResourсeException.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/N_ResourcePool/ResourсeException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="30" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/ResourcePool/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/N_ResourcePool/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/ResourcePool/ChannelPool.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/N_ResourcePool/ChannelPool.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/ResourcePool/AudioChannel.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/N_ResourcePool/AudioChannel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Barrier/Bid.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/O_Barrier/Bid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Barrier/Auction.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/O_Barrier/Auction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Barrier/AuctionRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/O_Barrier/AuctionRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
           <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/CountDownLatch/Task.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/P_CountDownLatch/Task.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="502">
           <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/CountDownLatch/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/P_CountDownLatch/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/CountDownLatch/RunLearning.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/P_CountDownLatch/RunLearning.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="447">
           <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/CountDownLatch/Tutor.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/P_CountDownLatch/Tutor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="40" column="51" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Exchanger/Subject.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Q_Exchanger/Subject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
           <folding>
-            <element signature="e#440#441#0" expanded="false" />
-            <element signature="e#480#481#0" expanded="false" />
-            <element signature="e#512#513#0" expanded="false" />
-            <element signature="e#541#542#0" expanded="false" />
-            <element signature="e#568#569#0" expanded="false" />
-            <element signature="e#606#607#0" expanded="false" />
-            <element signature="e#638#639#0" expanded="false" />
+            <element signature="e#442#443#0" expanded="false" />
+            <element signature="e#482#483#0" expanded="false" />
+            <element signature="e#514#515#0" expanded="false" />
+            <element signature="e#543#544#0" expanded="false" />
+            <element signature="e#570#571#0" expanded="false" />
+            <element signature="e#608#609#0" expanded="false" />
+            <element signature="e#640#641#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1252,41 +1139,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Exchanger/Item.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Q_Exchanger/Item.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           <folding>
-            <element signature="e#329#330#0" expanded="false" />
-            <element signature="e#363#364#0" expanded="false" />
-            <element signature="e#392#393#0" expanded="false" />
+            <element signature="e#331#332#0" expanded="false" />
+            <element signature="e#365#366#0" expanded="false" />
+            <element signature="e#394#395#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Exchanger/Producer.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Q_Exchanger/Producer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
-            <element signature="e#203#204#0" expanded="false" />
-            <element signature="e#236#237#0" expanded="false" />
+            <element signature="e#205#206#0" expanded="false" />
+            <element signature="e#238#239#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Exchanger/Consumer.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Q_Exchanger/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
           <folding>
-            <element signature="e#204#205#0" expanded="false" />
-            <element signature="e#237#238#0" expanded="false" />
+            <element signature="e#206#207#0" expanded="false" />
+            <element signature="e#239#240#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Exchanger/RunExchange.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Q_Exchanger/RunExchange.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
           <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
@@ -1294,20 +1181,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Reentrant_Lock/DoubleResource.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/R_Reentrant_Lock/DoubleResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#432#440#0" expanded="false" />
-            <element signature="e#1130#1131#0" expanded="false" />
-            <element signature="e#1168#1169#0" expanded="false" />
+            <element signature="e#434#442#0" expanded="false" />
+            <element signature="e#1132#1133#0" expanded="false" />
+            <element signature="e#1170#1171#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Reentrant_Lock/SynchroMain.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/R_Reentrant_Lock/SynchroMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
@@ -1315,7 +1202,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Reentrant_Lock/ResThread.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/R_Reentrant_Lock/ResThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="436">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
@@ -1323,7 +1210,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/ExecutorService_Callable/CalcRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/S_ExecutorService_Callable/CalcRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="32" />
@@ -1331,7 +1218,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/ExecutorService_Callable/CalcCallable.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/S_ExecutorService_Callable/CalcCallable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
@@ -1341,83 +1228,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/ExecutorService_Callable/ProductList.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/S_ExecutorService_Callable/ProductList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
           <folding>
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/ExecutorService_Callable/RunExecutor.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/S_ExecutorService_Callable/RunExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#405#421#0" expanded="true" />
+            <element signature="e#407#423#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/ExecutorService_Callable/BaseCallable.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/S_ExecutorService_Callable/BaseCallable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Phaser/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding>
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Phaser/Storage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#935#936#0" expanded="true" />
-            <element signature="e#970#971#0" expanded="true" />
-            <element signature="e#1010#1011#0" expanded="true" />
-            <element signature="e#1048#1049#0" expanded="true" />
-            <element signature="e#1101#1102#0" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Phaser/Truck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/Phaser/PhaserDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1432,10 +1268,176 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/T_Phaser/Storage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#937#938#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#1012#1013#0" expanded="true" />
+            <element signature="e#1050#1051#0" expanded="true" />
+            <element signature="e#1103#1104#0" expanded="true" />
+            <element signature="e#1142#1143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/T_Phaser/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding>
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/T_Phaser/Truck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/T_Phaser/PhaserDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Variant_A/Task_1/Ship.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Variant_A/Task_1/Port.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/A_Thread/Programm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/C_Thread_Suspending/Programm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/D_Yield_Demo/YieldDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/E_Daemon/Daemon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/E_Daemon/Programm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/F_Exception_Generation/Programm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/G_Exception_in_Main_Thread/Programm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/I_Synchronizing/Resource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/I_Synchronizing/Programm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/K_StringBuffer_Thread_Safety/BufferThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding>
+            <element signature="e#453#1328#0" expanded="true" />
+            <element signature="e#1327#1328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/M_BlockingQueue/RunBlocking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Examples/L_Wait_Notify/Payment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter_11_Threads/Variant_A/Task_1/Programm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        <state relative-caret-position="374">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>

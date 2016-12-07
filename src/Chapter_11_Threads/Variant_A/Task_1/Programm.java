@@ -15,4 +15,5 @@ package Chapter_11_Threads.Variant_A.Task_1;
  разгружаться или выполнять оба действия
  */
 public class Programm {
+
 }
